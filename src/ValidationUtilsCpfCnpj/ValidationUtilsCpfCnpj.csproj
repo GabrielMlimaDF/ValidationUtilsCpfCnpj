@@ -10,12 +10,12 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>ValidationUtilsCpfCnpj</PackageId>
     <Version>1.0.0</Version>
-    <Authors>Seu Nome</Authors>
-    <Company>Seu Nome</Company>
+    <Authors>Gabriel Matos Lima</Authors>
     <Description>Atributos DataAnnotation para validação de CPF e CNPJ no .NET 8.</Description>
-    <RepositoryUrl>https://github.com/seuusuario/ValidationUtilsCpfCnpj</RepositoryUrl>
+    <RepositoryUrl>https://github.com/GabrielMlimaDF/ValidationUtilsCpfCnpj</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>icon.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageTags>Validation DataAnnotations CPF CNPJ Brasil</PackageTags>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
@@ -27,6 +27,9 @@
   <!-- Incluir README.md no pacote NuGet -->
   <ItemGroup>
     <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Media\icon.png" Pack="true" PackagePath="\" />
   </ItemGroup>
 
 </Project>
