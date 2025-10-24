@@ -24,10 +24,6 @@
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
 
-  <!-- Incluir README.md no pacote NuGet -->
-  <ItemGroup>
-    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
-  </ItemGroup>
   <ItemGroup>
     <None Include="..\..\Media\icon.png" Pack="true" PackagePath="\" />
   </ItemGroup>
