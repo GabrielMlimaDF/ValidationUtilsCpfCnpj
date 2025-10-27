@@ -15,8 +15,6 @@
     <RepositoryUrl>https://github.com/GabrielMlimaDF/ValidationUtilsCpfCnpj</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageIcon>icon.png</PackageIcon>
-      <PackageTags>Validation DataAnnotations CPF CNPJ Brasil</PackageTags>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <EnablePackageValidation>true</EnablePackageValidation>
     <IncludeSymbols>true</IncludeSymbols>
